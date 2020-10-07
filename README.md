@@ -11,7 +11,7 @@ In the Find a Buddy Project, the Twitter API and Google NLP were used to send a 
 
 # How it works
 
-![Program Blck diagram](/Desktop/BU/Fall 2020/EC 602/Proj2_diagram.png)
+![Program Blck diagram](/Users/hudai/Desktop/BU/Fall 2020/EC 602/Proj2_diagram.png)
 
 # Important Note:
 When retrieving keys for the Twitter project created, be sure to modify the App Permussions from 'Read Only' to 'Read + Post Tweets and profile information'
