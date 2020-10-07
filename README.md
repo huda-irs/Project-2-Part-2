@@ -10,7 +10,8 @@ In the Find a Buddy Project, the Twitter API and Google NLP were used to send a 
 7. clone this github and fill in the required fields (the twitter keys and path to json file)
 
 ## How it works
-To find someboy to qualify as a buddy then they must share similar attitude of the same topic as the tweet the user just posted. Therefore, the user adds key words as terms that need to be in the tweet for 
+
+To find someboy to qualify as a buddy then they must share similar attitude of the same topic as the tweet the user just posted. The user may feel like tweeting something at the moment and suddenly wants to relate to someone else in the moment on the same topic. The post of the tweet is then followed by a key terms request by the machine. The user adds key words which are further used for the query of tweets. Once the list is generated, measuring similar attitudes are observed through Google NLP entities, this obtains the emotional level of the text fed into the processor for Google NLP. When the user's tweet and the tweet from the query are equal in emotional level then the tweet is saved to extract the screen name of the tweet from query. The list of screen names are then printed for the user to send a requent if they please.
 
 ![Program Blck diagram](https://github.com/huda-irs/Project-2-Part-2/blob/main/Proj2_diagram.png)
 
